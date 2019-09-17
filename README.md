@@ -1,28 +1,28 @@
 # Autoradar-docker-installer
-A receiver and web-ui for data from Android based GPS trackers. Build
-git clone git@github.com:gadson/tk103Gate
-git clone git@github.com:gadson/Autoradar
-cd Autoradar/GeoServer
+A receiver and web-ui for data from Android based GPS trackers. Build<br>
+git clone git@github.com:gadson/tk103Gate<br>
+git clone git@github.com:gadson/Autoradar<br>
+cd Autoradar/GeoServer<br>
 
-edit file settings.py
-Configure settings
-EMAIL_HOST = 'smtp.yandex.ru' - smtp send mail server name
-EMAIL_HOST_USER = 'info@*****.ru' smtp username
-EMAIL_HOST_PASSWORD = '' smtp password
-EMAIL_PORT = 587 smtp server port
-EMAIL_USE_TLS = True
-FROM_EMAIL='' from e-mail
+edit file settings.py<br>
+Configure settings<br>
+EMAIL_HOST = 'smtp.yandex.ru' - smtp send mail server name<br>
+EMAIL_HOST_USER = 'info@*****.ru' smtp username<br>
+EMAIL_HOST_PASSWORD = '' smtp password<br>
+EMAIL_PORT = 587 smtp server port<br>
+EMAIL_USE_TLS = True<br>
+FROM_EMAIL='' from e-mail<br>
 
-#Main domain
-MAIN_DOMAIN ='http://mysite.com'
+#Main domain<br>
+MAIN_DOMAIN ='http://mysite.com'<br>
 
-Google GCM PUSH service API key
-GOOGLE_API_KEY = ""
+Google GCM PUSH service API key<br>
+GOOGLE_API_KEY = ""<br>
 
-Chat server settings for log messages
-RC_USERNAME = 'Robot_Vasia'
-RC_PASSWORD = ''
-RC_DOMAIN = 'http://mychatserver.com:3000'
+Chat server settings for log messages<br>
+RC_USERNAME = 'Robot_Vasia'<br>
+RC_PASSWORD = ''<br>
+RC_DOMAIN = 'http://mychatserver.com:3000'<br>
 
-cd ..
-./install.sh
+cd ..<br>
+./install.sh<br>

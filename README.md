@@ -1,7 +1,11 @@
 # Autoradar-docker-installer
 A receiver and web-ui for data from Android based GPS trackers. Build<br>
+Download all:<br>
 git clone git@github.com:gadson/tk103Gate<br>
 git clone git@github.com:gadson/Autoradar<br>
+#install docker-compose
+pip install docker-compose
+
 cd Autoradar/GeoServer<br>
 
 edit file settings.py<br>

@@ -7,7 +7,8 @@ copy all files from Autoradar-docker-installer to /
 
 install docker-compose:<br>
 pip install docker-compose
-
+git clone --recursive https://github.com/gadson/Autoradar.git
+git clone --recursive https://github.com/gadson/tk103Gate.git
 cd Autoradar/GeoServer<br>
 
 edit file settings.py<br>

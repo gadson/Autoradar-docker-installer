@@ -14,7 +14,7 @@ services:
 
     web:
         build: 
-            context: ./GeoServer
+            context: ./Autoradar
             dockerfile: Dockerfile
         ports:
             - "8001:8001"
@@ -24,7 +24,7 @@ services:
 
     tk103:
         build:
-            context: ./Tk103Gate
+            context: ./tk103Gate
             dockerfile: Dockerfile
         ports:
             - "8888:8888"

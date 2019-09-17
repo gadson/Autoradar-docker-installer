@@ -6,7 +6,7 @@ copy tk103 gate files to /tk103Gate
 copy all files from Autoradar-docker-installer to /
 
 install docker-compose:<br>
-pip install docker-compose
+pip install docker-compose<br>
 git clone --recursive https://github.com/gadson/Autoradar.git<br>
 git clone --recursive https://github.com/gadson/tk103Gate.git<br>
 cd Autoradar/GeoServer<br>
